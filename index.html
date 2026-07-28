@@ -62,9 +62,56 @@
       <section class="section hero">
         <h1 class="hero_title">Ефективні рішення для вашого бізнесу</h1>
         <button class="hero_button" data-modal-open type="button">Замовити послугу</button>
-        <div class="backdrop is-hidden" data-modal>
+        <div class="backdrop" data-modal>
           <div class="modal">
-            <button class="modal_btn_close" data-modal-close type="button"></button>
+            <button class="modal_btn_close" data-modal-close type="button">
+              <svg class="btn_close_icon">
+                <use href="./images/form/btn_form_close.svg"></use>
+              </svg>
+            </button>
+            <form class="hero_form">
+              <b class="hero_form_text">Залиште свої дані, ми вам передзвонимо</b>
+              <label>
+                <span class="input_text"> Ім'я </span>
+                <input type="text" class="form_input" />
+                <svg class="input_icon">
+                  <use href="./images/form/person-form.svg"></use></svg
+              ></label>
+              <label
+                ><span class="input_text"> Телефон </span>
+                <input name="user-phone" type="tel" class="form_input" />
+                <svg class="input_icon">
+                  <use href="./images/form/phone-form.svg"></use></svg
+              ></label>
+              <label
+                ><span class="input_text"> Пошта </span
+                ><input placeholder="" name="user-email" type="email" class="form_input" />
+                <svg class="input_icon">
+                  <use href="./images/form/email-form.svg"></use></svg
+              ></label>
+              <label>
+                <span class="input_text"> Коментар </span>
+                <textarea
+                  placeholder="Введіть текст"
+                  class="user_comment"
+                  name="user-comment"
+                ></textarea>
+              </label>
+              <label class="label_user_policy">
+                <input
+                  required
+                  class="user_policy visually-hidden"
+                  type="checkbox"
+                  name="user_policy"
+                />
+                <span class="user_policy_check_box"></span>
+                <span class="input_text policy">
+                  Погоджуюся з розсилкою та приймаю
+                  <a class="user_policy_link" href="#">Умови договору</a>
+                </span>
+              </label>
+              <button disabled type="submit" class="form_submit_btn">Відправити</button>
+            </form>
           </div>
         </div>
       </section>
@@ -454,6 +501,16 @@
             </li>
           </ul>
         </div>
+
+        <form class="footer_form">
+          <b class="form_text">Підпишіться на розсилку</b>
+          <span>
+            <label class="email_label">
+              <input placeholder="E-mail" class="email_input" type="email" name="email" />
+            </label>
+            <button type="submit" class="submit_btn">Підписатися</button>
+          </span>
+        </form>
       </div>
     </footer>
     <script src="./js/modal.js"></script>

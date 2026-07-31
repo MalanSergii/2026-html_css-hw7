@@ -1,20 +1,21 @@
-//base
+//base =========================================
 @use './base/basic_styles';
 
-//utils
+//utils =========================================
 @use './utils/visually_hidden';
 @use './utils/vars';
 
-//layouyt
+//layouyt =========================================
 @use './layout/header';
 @use './layout/footer';
 
-//components
+//components =========================================
 //hero_modal_form
 @use './components/hero_form/backdrop';
 @use './components/hero_form/modal';
 @use './components/hero_form/form';
 //hero_modal_form
+
 @use './components/common';
 @use './components/navigation';
 @use './components/logo';
@@ -22,8 +23,10 @@
 @use './components/section_features.scss';
 @use './components/section_our_team';
 @use './components/section_our_clients';
-@use './components/footer-sirst-part';
+@use './components/footer-first-part';
 @use './components/footer-second-part';
 @use './components/footer-form';
 
+//portfolio
+@use './components/portfolio-btns-list';
 

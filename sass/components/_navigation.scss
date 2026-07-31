@@ -1,0 +1,41 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.nav-list {
+  display: flex;
+  margin-left: 93px;
+  margin-right: auto;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.nav-item {
+  position: relative;
+
+  &:not(:last-child) {
+      margin-right: 50px;
+    }
+}
+
+.nav-link {
+  display: block;
+  text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: var(--prime-color);
+  transition: color 250ms linear;
+
+  &:hover,
+  &:focus{
+    color: var(--accent-color);
+  } 
+}
+
+.smartphone {
+  width: 10px;
+  height: 16px;
+}

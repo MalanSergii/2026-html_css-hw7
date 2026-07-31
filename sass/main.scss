@@ -1,5 +1,11 @@
-
+//base
 @use './base/basic_styles';
+//utils
 @use './utils/visually_hidden';
 @use './utils/vars';
+//layouyt
 @use './layout/header';
+//components
+@use './components/common';
+@use './components/navigation';
+@use './components/logo';

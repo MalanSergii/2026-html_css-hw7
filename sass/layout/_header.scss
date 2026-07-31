@@ -35,7 +35,6 @@
     }
 }
 
-
 .header-contacts-link:hover,
 .header-contacts-link:focus {
   color: var(--accent-color);
@@ -43,68 +42,6 @@
   & .header-icon{
     fill: var(--accent-color);
   }
-}
-
-
-
-.section_title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1;
-}
-
-.navigation {
-  display: flex;
-  align-items: center;
-  margin-right: auto;
-}
-
-
-.logo {
-  font-family: Raleway, sans-serif;
-  font-size: 26px;
-  line-height: 1;
-
-  .logo-first-part {
-    color: var(--accent-color);
-  }
-
-  .logo-second-part {
-    color: var(--prime-color)
-  }
-
-  .logo_footer_second {
-    color: #fff;
-  }
-}
-
-.nav-list {
-  display: flex;
-  margin-left: 93px;
-  margin-right: auto;
-  font-family: Roboto, sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1;
-}
-
-.nav-item {
-  position: relative;
-}
-
-.nav-link {
-  display: block;
-  text-decoration: none;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  color: var(--prime-color);
-  transition: color 250ms linear;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  color: var(--accent-color);
-
 }
 
 .main_paige_link::after {
@@ -128,17 +65,3 @@
   border-radius: 2px;
   background-color: var(--accent-color)
 }
-
-.nav-item:not(:last-child) {
-  margin-right: 50px;
-}
-
-
-
-
-
-.smartphone {
-  width: 10px;
-  height: 16px;
-}
-

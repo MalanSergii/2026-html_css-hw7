@@ -20,10 +20,11 @@
   cursor: pointer;
   background-color: #F5F4FA;
   transition: color 250ms var(--cubic), background-color 250ms var(--cubic);
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    background-color: var(--accent-color);
+  }
 }
 
-.portfolio_buttons_item button:hover,
-.portfolio_buttons_item button:focus {
-  color: #fff;
-  background-color: var(--accent-color);
-}

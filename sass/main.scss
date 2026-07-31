@@ -6,6 +6,12 @@
 //layouyt
 @use './layout/header';
 //components
+
+//hero_modal_form
+@use './components/hero_form/backdrop';
+@use './components/hero_form/modal';
+//hero_modal_form
 @use './components/common';
 @use './components/navigation';
 @use './components/logo';
+@use './components/hero';

@@ -1,17 +1,21 @@
 //base
 @use './base/basic_styles';
+
 //utils
 @use './utils/visually_hidden';
 @use './utils/vars';
+
 //layouyt
 @use './layout/header';
-//components
 
+//components
 //hero_modal_form
 @use './components/hero_form/backdrop';
 @use './components/hero_form/modal';
+@use './components/hero_form/form';
 //hero_modal_form
 @use './components/common';
 @use './components/navigation';
 @use './components/logo';
 @use './components/hero';
+@use './components/section_features.scss'

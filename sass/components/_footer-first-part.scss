@@ -1,0 +1,26 @@
+.footer .logo {
+    display: block;
+    margin-bottom: 28px;
+  }
+  
+.footer_list_link {
+  font-style: normal;
+  text-transform: none;
+  font-size: 14px;
+  line-height: 2;
+  color: hsl(0, 0%, 100%, 0.6);
+  transition: color 250ms var(--cubic);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color)
+  }
+}
+
+.footer_list_item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.location {
+  color: #fff;
+}
